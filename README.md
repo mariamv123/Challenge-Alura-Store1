@@ -1,48 +1,45 @@
-# 📊 Evaluación de Desempeño de las 4 Tiendas  
+# 📊 Evaluación de Rendimiento y Estrategia de Desinversión de Sucursales 💰
 
-## 📝 Descripción  
+## 📝 Resumen Ejecutivo
 
-Este proyecto tiene como objetivo analizar la información de cuatro tiendas con el fin de ayudar al Sr. Juan a decidir cuál de ellas resulta menos rentable y debería ser vendida.  
-El estudio se enfoca en distintos aspectos: niveles de facturación, categorías con mayores ventas, opiniones de los clientes, productos destacados y promedio de costos de envío.  
+Este proyecto de consultoría se desarrolló con el objetivo estratégico de **analizar el rendimiento operativo y financiero** de cuatro unidades de negocio para el **Sr. Juan**. El propósito es identificar la sucursal con menor rentabilidad y potencial de crecimiento para recomendar su desinversión.
 
----
+El estudio se focaliza en el análisis de áreas clave: **niveles de facturación**, **rendimiento por categoría**, **satisfacción del cliente**, y **eficiencia de los costos de envío**.
 
-## ⚙️ Dependencias  
+***
 
-Para ejecutar el proyecto se requiere el uso de las siguientes librerías de **Python**:  
+## ⚙️ Dependencias Técnicas 🐍
 
-* **pandas**  
-* **numpy**  
-* **matplotlib**  
-* **plotly**  
-* **scikit-learn**  
+Para la ejecución completa del análisis, se utilizó un entorno Python con las siguientes librerías de Data Science.
 
-> Puedes instalarlas fácilmente con el siguiente comando:  
+| Librería | Propósito Principal |
+| :--- | :--- |
+| **pandas** | Manipulación y consolidación de datos tabulares. |
+| **numpy** | Soporte para cálculos numéricos avanzados. |
+| **matplotlib** | Generación de gráficos estáticos para la exploración inicial. |
+| **plotly** | Creación de visualizaciones interactivas y dinámicas. |
+| **scikit-learn** | Herramientas de aprendizaje automático (si se usan). |
+
+> **Instalación:**
 > ```bash
 > pip install pandas numpy matplotlib plotly scikit-learn
-> ```  
+> ```
 
----
+***
 
-## 🚀 Uso  
+## 🚀 Guía de Análisis 🧭
 
-1. **Carga de datos:**  
-   Los datos de las tiendas se leen desde archivos en formato CSV. Asegúrate de que dichos archivos se encuentren en el mismo directorio del notebook o actualiza la ruta correspondiente en el código.  
+El flujo de trabajo del proyecto sigue una metodología estándar de análisis exploratorio de datos (EDA) y presentación ejecutiva:
 
-2. **Exploración y análisis:**  
-   Se realiza un examen detallado de la información, incluyendo ingresos totales, desempeño por categoría, puntuaciones promedio de clientes, artículos más vendidos y gastos de envío promedio.  
+1.  **Ingesta de Datos:** Los datos se leen desde archivos CSV. Es fundamental que estos archivos estén ubicados en el directorio de trabajo del notebook.
+2.  **Modelado y Exploración:** Se realiza un examen detallado de las métricas clave (KPIs), incluyendo el cálculo de ingresos netos, el perfilamiento de desempeño y la evaluación de la eficiencia en gastos de envío.
+3.  **Visualización de Hallazgos:** Se emplean diferentes técnicas gráficas para representar de forma clara y accesible los principales hallazgos del análisis.
+4.  **Conclusiones y Recomendación:** Se sintetizan los datos para fundamentar una recomendación accionable para el Sr. Juan.
 
-3. **Visualización de resultados:**  
-   Se generan diferentes tipos de gráficos —barras, tortas y visualizaciones interactivas en 3D con Plotly— para representar de manera clara los hallazgos.  
+***
 
-4. **Conclusión y recomendación:**  
-   Finalmente, se presenta una recomendación para el Sr. Juan sobre cuál tienda sería la mejor opción para vender, sustentada en los datos obtenidos.  
+## 📈 Conclusión Ejecutiva ✅
 
----
+Los hallazgos del análisis detallado quedan documentados en el notebook adjunto. En resumen, los resultados señalan que:
 
-## 📈 Resultados  
-
-Los resultados incluyen gráficos y tablas comparativas que resumen los indicadores más relevantes.  
-De acuerdo con el análisis, se sugiere al **Sr. Juan vender la Tienda 4**, ya que presenta el rendimiento más bajo en términos de ingresos, satisfacción del cliente y eficiencia en costos de envío.  
-
----
+El análisis de rendimiento comparativo sugiere la **venta de la Unidad de Negocio 4**, debido a su desempeño consistentemente deficiente en las métricas clave, incluyendo **bajos ingresos**, **baja satisfacción del cliente** y una eficiencia en costos que no logra compensar sus debilidades operativas.
