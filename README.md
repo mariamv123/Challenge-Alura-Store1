@@ -42,4 +42,4 @@ El flujo de trabajo del proyecto sigue una metodología estándar de análisis e
 
 Los hallazgos del análisis detallado quedan documentados en el notebook adjunto. En resumen, los resultados señalan que:
 
-El análisis de rendimiento comparativo sugiere la **venta de la Unidad de Negocio 4**, debido a su desempeño consistentemente deficiente en las métricas clave, incluyendo **bajos ingresos**, **baja satisfacción del cliente** y una eficiencia en costos que no logra compensar sus debilidades operativas.
+El análisis de rendimiento comparativo sugiere la **venta de la Unidad de Negocio Tienda # 4**, debido a su desempeño consistentemente deficiente en las métricas clave, incluyendo **bajos ingresos**, **baja satisfacción del cliente** y una eficiencia en costos que no logra compensar sus debilidades operativas.
